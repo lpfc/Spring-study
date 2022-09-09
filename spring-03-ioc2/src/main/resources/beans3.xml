@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--一、无参-->
+    <!--   <bean id="user" class="com.kuang.pojo.User">-->
+    <!--       <property name="name" value="hc"/>-->
+    <!--   </bean>-->
+
+    <!--    //二、有参-->
+    <!--    <bean id="user" class="com.kuang.pojo.User">-->
+    <!--       <constructor-arg index="0" value="狂神说java"/>-->
+    <!--    </bean>-->
+
+
+    <!--    三、有参-->
+    <!--    <bean id="user" class="com.kuang.pojo.User">-->
+    <!--        <constructor-arg name="name" value="hc"/>-->
+    <!--    </bean>-->
+
+    <bean id="user" class="com.kuang.pojo.UserT" name="u1 u2,u3">
+        <property name="name" value="西部开源"/>
+    </bean>
+
+    <!--    alias取别名-->
+    <!--    <alias name="user" alias="ccccccccccccccccc"/>-->
+
+
+</beans>
